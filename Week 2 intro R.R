@@ -32,3 +32,33 @@ elephant1_lb<-elephant1_kg *2.2
 
 myelephants<-c(elephant1_lb, elephant2_lb)
 hich(myelephants == max(myelephant2_lb))
+
+d<-read.csv("./data/tail_lenght.csv")
+dir.create("./lectures")
+
+
+
+
+# How are thinks about data
+
+
+##Vectors
+weight_g<-c(50,60,65,82)
+animals<-c("mouse", "rat","dog")
+animals
+
+
+lenght(weight_g)
+str(weight_g)
+
+
+num_char <- c(1,2,3,"a")
+num_char
+class(1,2,3,"a")
+num_logical<-c(1,2,3, TRUE)
+num_logical
+char_logical<-c("a","b","c",TRUE)
+char_logical
+class(num_char)
+class(num_logical)
+class(char_logical)
